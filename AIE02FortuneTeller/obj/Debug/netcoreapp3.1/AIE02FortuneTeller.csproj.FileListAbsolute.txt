@@ -1,0 +1,11 @@
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\obj\Debug\netcoreapp3.1\AIE02FortuneTeller.csprojAssemblyReference.cache
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\obj\Debug\netcoreapp3.1\AIE02FortuneTeller.AssemblyInfoInputs.cache
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\obj\Debug\netcoreapp3.1\AIE02FortuneTeller.AssemblyInfo.cs
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\bin\Debug\netcoreapp3.1\AIE02FortuneTeller.exe
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\bin\Debug\netcoreapp3.1\AIE02FortuneTeller.deps.json
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\bin\Debug\netcoreapp3.1\AIE02FortuneTeller.runtimeconfig.json
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\bin\Debug\netcoreapp3.1\AIE02FortuneTeller.runtimeconfig.dev.json
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\bin\Debug\netcoreapp3.1\AIE02FortuneTeller.dll
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\bin\Debug\netcoreapp3.1\AIE02FortuneTeller.pdb
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\obj\Debug\netcoreapp3.1\AIE02FortuneTeller.dll
+C:\Users\s171627\source\repos\ClassEx\AIE02FortuneTeller\obj\Debug\netcoreapp3.1\AIE02FortuneTeller.pdb

@@ -1,0 +1,10 @@
+C:\Users\s171627\source\repos\ClassEx\temp2\bin\Debug\netcoreapp3.1\temp2.exe
+C:\Users\s171627\source\repos\ClassEx\temp2\bin\Debug\netcoreapp3.1\temp2.deps.json
+C:\Users\s171627\source\repos\ClassEx\temp2\bin\Debug\netcoreapp3.1\temp2.runtimeconfig.json
+C:\Users\s171627\source\repos\ClassEx\temp2\bin\Debug\netcoreapp3.1\temp2.runtimeconfig.dev.json
+C:\Users\s171627\source\repos\ClassEx\temp2\bin\Debug\netcoreapp3.1\temp2.dll
+C:\Users\s171627\source\repos\ClassEx\temp2\bin\Debug\netcoreapp3.1\temp2.pdb
+C:\Users\s171627\source\repos\ClassEx\temp2\obj\Debug\netcoreapp3.1\temp2.AssemblyInfoInputs.cache
+C:\Users\s171627\source\repos\ClassEx\temp2\obj\Debug\netcoreapp3.1\temp2.AssemblyInfo.cs
+C:\Users\s171627\source\repos\ClassEx\temp2\obj\Debug\netcoreapp3.1\temp2.dll
+C:\Users\s171627\source\repos\ClassEx\temp2\obj\Debug\netcoreapp3.1\temp2.pdb
