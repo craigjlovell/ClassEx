@@ -21,6 +21,7 @@ namespace AiePong
         public KeyboardKey upKey;
         public KeyboardKey downKey;
         public float speed = 3.0f;
+        public int score = 0;
 
     }
     
@@ -65,8 +66,7 @@ namespace AiePong
         void LoadGame()
         {
             ball = new Ball();
-            ball.pos.X = windowW / 2;
-            ball.pos.Y = windowH / 2;
+            ResetBall();
             ball.dir.X = 0.707f;
             ball.dir.Y = 0.707f;
 
@@ -85,19 +85,38 @@ namespace AiePong
 
         }
 
+        void ResetBall() 
+        {
+
+            ball.pos.X = windowW / 2;
+            ball.pos.Y = windowH / 2;
+
+        }
+
         void Update()
         {
             UpdateBall(ball);
             UpdatePaddle(leftPaddle);
             UpdatePaddle(rightPaddle);
+            HandlePaddleBallCollision(leftPaddle, ball);
+            HandlePaddleBallCollision(rightPaddle, ball);
         }
 
         void UpdateBall(Ball b)
         {
             b.pos += b.dir * b.speed;
 
-            if (b.pos.X < 0)       b.dir.X = -b.dir.X;
-            if (b.pos.X > windowW) b.dir.X = -b.dir.X;
+            if (b.pos.X < 0)
+            {
+                ResetBall();
+                rightPaddle.score += 1;
+                
+            }
+            if (b.pos.X > windowW)
+            {
+                ResetBall();
+                leftPaddle.score += 1;
+            }
             if (b.pos.Y < 0)       b.dir.Y = -b.dir.Y;
             if (b.pos.Y > windowH) b.dir.Y = -b.dir.Y;
 
@@ -119,6 +138,16 @@ namespace AiePong
         void HandlePaddleBallCollision(Paddle p, Ball b)
         {
             float top = p.pos.Y - p.size.Y / 2;
+            float bottom = p.pos.Y + p.size.Y / 2;
+            float right = p.pos.X + p.size.X / 2;
+            float left = p.pos.X - p.size.X / 2;
+
+            if (b.pos.Y > top && b.pos.Y < bottom && b.pos.X > left && b.pos.X < right) 
+            {
+
+                b.dir.X = -b.dir.X;
+
+            }
         }
 
         void Draw() 
@@ -130,6 +159,9 @@ namespace AiePong
             DrawBall(ball);
             DrawPaddle(leftPaddle);
             DrawPaddle(rightPaddle);
+
+            Raylib.DrawText(leftPaddle.score.ToString(), windowW / 4, 20, 20, Color.BLACK);
+            Raylib.DrawText(rightPaddle.score.ToString(), windowW - (windowW / 4), 20, 20, Color.BLACK);
 
             Raylib.DrawFPS(10, 10);
 
