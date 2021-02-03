@@ -109,13 +109,25 @@ namespace AiePong
             if (b.pos.X < 0)
             {
                 ResetBall();
+
                 rightPaddle.score += 1;
-                
+
+                if (rightPaddle.score >= 5)
+                {
+                    rightPaddle.score = 0;
+                }
+
             }
             if (b.pos.X > windowW)
             {
                 ResetBall();
+
                 leftPaddle.score += 1;
+
+                if (leftPaddle.score >= 5)
+                {
+                    leftPaddle.score = 0;
+                }
             }
             if (b.pos.Y < 0)       b.dir.Y = -b.dir.Y;
             if (b.pos.Y > windowH) b.dir.Y = -b.dir.Y;
