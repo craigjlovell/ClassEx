@@ -6,10 +6,12 @@ namespace AIE03Circle
     {
         static void Main(string[] args)
         {
-            double rad = 8;
-            double cirm = 2 * Math.PI * rad;
-            double area = ;
+            double radius = 8;
+            double circumference = 2 * Math.PI * radius;
+            double area = Math.PI * Math.Pow(radius, 2);
 
+            Console.WriteLine("The circumference is " + circumference);
+            Console.WriteLine("The area is " + area);
 
         }
     }
