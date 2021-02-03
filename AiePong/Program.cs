@@ -20,7 +20,7 @@ namespace AiePong
         public Vector2 size = new Vector2(10, 100);
         public KeyboardKey upKey;
         public KeyboardKey downKey;
-        public float speed = 3.0f;
+        public float speed = 5.0f;
         public int score = 0;
 
     }
