@@ -28,7 +28,7 @@ namespace AiePong
     class Program
     {
         int windowW = 800;
-        int windowH = 450;
+        int windowH = 400;
 
 
         Ball ball;
@@ -72,13 +72,13 @@ namespace AiePong
 
 
             leftPaddle = new Paddle();
-            leftPaddle.pos.X = 10;
+            leftPaddle.pos.X = 50;
             leftPaddle.pos.Y = windowH / 2.0f;
             leftPaddle.upKey = KeyboardKey.KEY_W;
             leftPaddle.downKey = KeyboardKey.KEY_S;
 
             rightPaddle = new Paddle();
-            rightPaddle.pos.X = windowW - 10;
+            rightPaddle.pos.X = windowW - 50;
             rightPaddle.pos.Y = windowH / 2.0f;
             rightPaddle.upKey = KeyboardKey.KEY_UP;
             rightPaddle.downKey = KeyboardKey.KEY_DOWN;
@@ -97,8 +97,8 @@ namespace AiePong
         {
             leftPaddle.pos.X = 10;
             leftPaddle.pos.Y = windowH / 2.0f;
-            rightPaddle.pos.X = windowW / 2;
-            rightPaddle.pos.Y = windowH / 2;
+            rightPaddle.pos.X = windowW - 10;
+            rightPaddle.pos.Y = windowH / 2.0f;
         }
 
         void Update()
