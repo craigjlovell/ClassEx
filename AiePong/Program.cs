@@ -93,6 +93,14 @@ namespace AiePong
 
         }
 
+        void ResetPaddle()
+        {
+            leftPaddle.pos.X = 10;
+            leftPaddle.pos.Y = windowH / 2.0f;
+            rightPaddle.pos.X = windowW / 2;
+            rightPaddle.pos.Y = windowH / 2;
+        }
+
         void Update()
         {
             UpdateBall(ball);
@@ -115,6 +123,7 @@ namespace AiePong
                 if (rightPaddle.score >= 5)
                 {
                     rightPaddle.score = 0;
+                    ResetPaddle();
                 }
 
             }
@@ -127,6 +136,7 @@ namespace AiePong
                 if (leftPaddle.score >= 5)
                 {
                     leftPaddle.score = 0;
+                    ResetPaddle();
                 }
             }
             if (b.pos.Y < 0)       b.dir.Y = -b.dir.Y;
