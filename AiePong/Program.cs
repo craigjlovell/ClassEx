@@ -57,6 +57,23 @@ namespace AiePong
                 Update();
                 Draw();
 
+                if (leftPaddle.pos.Y > windowH)
+                {
+                    leftPaddle.pos.Y = 0;
+                }
+                if (leftPaddle.pos.Y < 0)
+                {
+                    leftPaddle.pos.Y = windowH;
+                }
+                if (rightPaddle.pos.Y > windowH)
+                { 
+                    rightPaddle.pos.Y = 0;
+                }
+                if (rightPaddle.pos.Y < 0)
+                {
+                    rightPaddle.pos.Y = windowH;
+                }
+
             }
 
             Raylib.CloseWindow();
@@ -95,9 +112,10 @@ namespace AiePong
 
         void ResetPaddle()
         {
-            leftPaddle.pos.X = 10;
+            leftPaddle.pos.X = 50;
             leftPaddle.pos.Y = windowH / 2.0f;
-            rightPaddle.pos.X = windowW - 10;
+
+            rightPaddle.pos.X = windowW - 50;
             rightPaddle.pos.Y = windowH / 2.0f;
         }
 
