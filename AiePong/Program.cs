@@ -186,6 +186,7 @@ namespace AiePong
             {
 
                 b.dir.X = -b.dir.X;
+                b.speed = b.speed * 1.05f;
 
             }
         }

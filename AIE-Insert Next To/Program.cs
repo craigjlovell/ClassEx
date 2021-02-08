@@ -4,6 +4,11 @@ namespace AIE_Insert_Next_To
 {
     class Program
     {
+        static string[] InsertWorld(string[] world)
+        {
+
+        }
+
         static void Main(string[] args)
         {
             var words1 = new string[] { "hello", "the", "quick", "brown", "fox", "hello", "something" };

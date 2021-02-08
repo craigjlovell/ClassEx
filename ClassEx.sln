@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-ReverseArray", "AIE-Rev
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Insert Next To", "AIE-Insert Next To\AIE-Insert Next To.csproj", "{BB1064D0-4A69-4BAA-8638-6AB0D83AA13C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Game Settings", "AIE-Game Settings\AIE-Game Settings.csproj", "{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{BB1064D0-4A69-4BAA-8638-6AB0D83AA13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB1064D0-4A69-4BAA-8638-6AB0D83AA13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB1064D0-4A69-4BAA-8638-6AB0D83AA13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
