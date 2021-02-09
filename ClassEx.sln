@@ -17,27 +17,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "temp2", "temp2\temp2.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE05Hi-Low", "AIE05Hi-Low\AIE05Hi-Low.csproj", "{A7E123C1-3948-4A6D-A261-84EA0A8F2400}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE06NineTimesTables", "AIE06NineTimesTables\AIE06NineTimesTables.csproj", "{0BC469AE-EA61-47B6-AE25-5EC075EC15B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-NineTimesTables", "AIE06NineTimesTables\AIE-NineTimesTables.csproj", "{0BC469AE-EA61-47B6-AE25-5EC075EC15B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE07AllTimesTables", "AIE07AllTimesTables\AIE07AllTimesTables.csproj", "{54ED837A-7560-4203-B69D-F6E287EBC1B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-AllTimesTables", "AIE07AllTimesTables\AIE-AllTimesTables.csproj", "{54ED837A-7560-4203-B69D-F6E287EBC1B0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE08PasswordPrompt", "AIE08PasswordPrompt\AIE08PasswordPrompt.csproj", "{ED60A6A5-2F74-41EB-BC42-472F883E52A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-PasswordPrompt", "AIE08PasswordPrompt\AIE-PasswordPrompt.csproj", "{ED60A6A5-2F74-41EB-BC42-472F883E52A1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE09CalCube", "AIE09CalCube\AIE09CalCube.csproj", "{3676D8A4-4B93-464C-8A33-69E827218545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-CalCube", "AIE09CalCube\AIE-CalCube.csproj", "{3676D8A4-4B93-464C-8A33-69E827218545}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AiePong", "AiePong\AiePong.csproj", "{03435469-47F6-45CA-938F-2B7BE486521A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Get Two Lengths", "AIE-Get Two Lengths\AIE-Get Two Lengths.csproj", "{FCEBDF67-739A-4AE5-B6E3-3524BDC1EF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Get Two Lengths", "AIE-Get Two Lengths\AIE-Get Two Lengths.csproj", "{FCEBDF67-739A-4AE5-B6E3-3524BDC1EF11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Needle in the Haystack", "AIE-Needle in the Haystack\AIE-Needle in the Haystack.csproj", "{6DC1113B-F38F-4AF5-BE0C-7A00EBA98960}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Needle in the Haystack", "AIE-Needle in the Haystack\AIE-Needle in the Haystack.csproj", "{6DC1113B-F38F-4AF5-BE0C-7A00EBA98960}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-CalculateAverage", "AIE-CalculateAverage\AIE-CalculateAverage.csproj", "{A3DC1691-E010-4B5C-B94A-772BC209FA4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-CalculateAverage", "AIE-CalculateAverage\AIE-CalculateAverage.csproj", "{A3DC1691-E010-4B5C-B94A-772BC209FA4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-ReverseArray", "AIE-ReverseArray\AIE-ReverseArray.csproj", "{7F27371A-D0BB-4E8F-8A3B-7BF7FCB8DA45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-ReverseArray", "AIE-ReverseArray\AIE-ReverseArray.csproj", "{7F27371A-D0BB-4E8F-8A3B-7BF7FCB8DA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Insert Next To", "AIE-Insert Next To\AIE-Insert Next To.csproj", "{BB1064D0-4A69-4BAA-8638-6AB0D83AA13C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Insert Next To", "AIE-Insert Next To\AIE-Insert Next To.csproj", "{BB1064D0-4A69-4BAA-8638-6AB0D83AA13C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Game Settings", "AIE-Game Settings\AIE-Game Settings.csproj", "{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Game Settings", "AIE-Game Settings\AIE-Game Settings.csproj", "{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Asteroids", "AIE-Asteroids\AIE-Asteroids.csproj", "{6446DE31-8D4C-45D0-9221-481EE58FBF98}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
