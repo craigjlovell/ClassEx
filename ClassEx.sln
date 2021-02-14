@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Insert Next To", "AIE-I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Game Settings", "AIE-Game Settings\AIE-Game Settings.csproj", "{F5167F2A-FB76-45DE-8915-5C0CC90E4B08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-Asteroids", "AIE-Asteroids\AIE-Asteroids.csproj", "{6446DE31-8D4C-45D0-9221-481EE58FBF98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AIE-Asteroids", "AIE-Asteroids\AIE-Asteroids.csproj", "{6446DE31-8D4C-45D0-9221-481EE58FBF98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIE-AnimalsPerson", "AIE-AnimalsPerson\AIE-AnimalsPerson.csproj", "{115EE486-DD50-4A60-8BAA-898668869E49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,10 @@ Global
 		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6446DE31-8D4C-45D0-9221-481EE58FBF98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{115EE486-DD50-4A60-8BAA-898668869E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115EE486-DD50-4A60-8BAA-898668869E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115EE486-DD50-4A60-8BAA-898668869E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115EE486-DD50-4A60-8BAA-898668869E49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

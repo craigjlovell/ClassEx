@@ -13,7 +13,7 @@ namespace AIE_Asteroids
 
         public Vector2 pos = new Vector2();
         public Vector2 dir = new Vector2();
-        public float radious = 40;
+        public float radius = 40;
 
 
         public Asteroid(Program program, Vector2 pos, Vector2 dir)
@@ -43,7 +43,7 @@ namespace AIE_Asteroids
         {
 
 
-            Raylib.DrawCircleLines((int)pos.X, (int)pos.Y, radious, Color.WHITE);
+            Raylib.DrawCircleLines((int)pos.X, (int)pos.Y, radius, Color.WHITE);
         }
 
     }
