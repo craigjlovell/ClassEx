@@ -7,26 +7,21 @@ using Raylib_cs;
 
 namespace AIE_Asteroids
 {
-    class Asteroid
+    class Asteroid : GameObject
     {
-        Program program;
 
-        public Vector2 pos = new Vector2();
         public Vector2 dir = new Vector2();
         public float radius = 40;
 
 
-        public Asteroid(Program program, Vector2 pos, Vector2 dir)
+        public Asteroid(Program program, Vector2 pos, Vector2 dir) : base(program ,pos)
         {
-            this.program = program;
-
-            this.pos = pos;
+            
             this.dir = dir;
-
 
         }
 
-        public void Update()
+        public override void Update()
         {
 
             pos += dir;
@@ -39,9 +34,21 @@ namespace AIE_Asteroids
         }
 
 
-        public void Draw()
+        public override void Draw()
         {
+            // goes in class Asteroid
+            //Color color;
 
+            //static Color[] colours = new Color[6] { Color.RED, Color.ORANGE, Color.YELLOW, Color.GREEN, Color.BLUE, Color.PURPLE };
+            //static int nextColor = 0;
+
+            // goes in public Asteroid()
+            //color = colours[nextColor];
+            //nextColor += 1;
+            //if (nextColor >= colours.Length)
+            //    nextColor = 0;
+
+            // change Color.COLOR to color
 
             Raylib.DrawCircleLines((int)pos.X, (int)pos.Y, radius, Color.WHITE);
         }

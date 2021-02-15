@@ -6,25 +6,22 @@ using Raylib_cs;
 
 namespace AIE_Asteroids
 {
-    class Bullet
+    class Bullet : GameObject
     {
-        Program program;
 
-        public Vector2 pos = new Vector2();
         public Vector2 dir = new Vector2();
         public float speed = 10;
 
 
 
-        public Bullet(Program program, Vector2 pos, Vector2 dir)
+        public Bullet(Program program, Vector2 pos, Vector2 dir) : base(program ,pos)
         {
-            this.program = program;
-            this.pos = pos;
+
             this.dir = dir;
 
         }
 
-        public void Update()
+        public override void Update()
         {
             pos += dir * speed;
 
@@ -34,7 +31,7 @@ namespace AIE_Asteroids
             if (pos.X < 0) pos.X = program.windowW;
         }
 
-        public void Draw()
+        public override void Draw()
         {
             Random rand = new Random();
             Color col = new Color(
